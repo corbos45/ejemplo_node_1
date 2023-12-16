@@ -11,7 +11,7 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "yarn start",
+      "command": "node index.js",
       "runAtStart": true
     }
   }

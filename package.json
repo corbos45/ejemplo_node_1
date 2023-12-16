@@ -20,5 +20,7 @@
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@inquirer/prompts": "3.3.0"
+  }
 }
