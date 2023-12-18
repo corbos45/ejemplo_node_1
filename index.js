@@ -1,7 +1,8 @@
 const inquirer = require('@inquirer/prompts');
-
+const {PrismaClient} = require("@prisma/client")
 const { select, Separator, input } = inquirer;
 
+const prisma = new PrismaClient()
 
 class Person {
 
@@ -12,6 +13,12 @@ class Person {
   constructor(name, age) {
     this.name = name;
     this.age = age;
+  }
+}
+
+class PersonService {
+  constructor({}){
+
   }
 }
 

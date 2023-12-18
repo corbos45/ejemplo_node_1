@@ -17,9 +17,10 @@
     "url": "https://github.com/codesandbox-app/static-template/issues"
   },
   "homepage": "https://github.com/codesandbox-app/static-template#readme",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
-    "@inquirer/prompts": "3.3.0"
+    "@inquirer/prompts": "3.3.0",
+    "@prisma/client": "^5.7.0",
+    "prisma": "^5.7.0"
   }
 }
