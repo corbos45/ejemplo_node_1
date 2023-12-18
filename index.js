@@ -73,7 +73,7 @@ class School {
 
 async function createStudent() {
   const name = await input({
-    message: ' ingrese el nombre del estudiante',
+    message: 'ingrese el nombre del estudiante',
   });
   const age = await input({
     message: 'ingrese la edad del estudiante',
