@@ -38,10 +38,10 @@ class Student extends Person {
 class School {
 
 
-  // +    Inicializa una nueva instancia de la clase.
-  // +   
-  // +    @param {type} paramName - descripción del parámetro
-  // +    @return {type} descripción del valor de retorno  
+  //     Inicializa una nueva instancia de la clase.
+  //    
+  //     @param {type} paramName - descripción del parámetro
+  //     @return {type} descripción del valor de retorno  
   constructor() {
     this.students = [];
   }
@@ -59,10 +59,9 @@ class School {
   // @return {string} - Los detalles de todos los estudiantes.
 
   getDetails() {
-    return this.students.map((student) = student.getDetails()).join(n);
+    return this.students.map((student) => student.getDetails()).join('\n');
   }
 }
-
 
 // Crea un nuevo objeto estudiante con el nombre y la edad proporcionados.
 
@@ -83,11 +82,9 @@ async function createStudent() {
   return new Student(name, age);
 }
 
-
 // Obtiene las opciones del menú principal del usuario.
+
 // @return {Promisenumber} El valor de la opción seleccionada.
-
-
 
 // Este código define una función asíncrona llamada principalMenu que devuelve
 // una promesa. Utiliza la función select para mostrar un menú con opciones 
@@ -145,7 +142,6 @@ async function run() {
           school.addStudent(student);
         }
         break;
-
       case 2:
         {
           console.log(school.getDetails());
